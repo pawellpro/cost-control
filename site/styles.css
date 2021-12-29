@@ -5,11 +5,39 @@
     box-sizing: inherit;
 }
 body {
-    background: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background: white;
     margin: 0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+fluent-text-field {
+    padding-top: 1vh;
+}
+.centered {
+    text-align: center;
+}
+.reg-btn {
+    padding-top: 1vh;
+}
+.reg-p {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.reg-card {
+    --card-width: 50vh;
+    --card-height: 43vh;
+    padding: 5vh;
 }
