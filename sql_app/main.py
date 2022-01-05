@@ -34,7 +34,6 @@ def create_item_for_user(item: schemas.Item, db: Session = Depends(get_db)):
 def get_user_by_login(login: str, db: Session = Depends(get_db)):
     return crud.get_user(db, login)
 
-
 # todo: make method to read items by time
 # @app.get("/items/{user}/", response_model=list[schemas.Item])
 # def read_items(user: schemas.User, db: Session = Depends(get_db)):
