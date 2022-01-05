@@ -38,6 +38,6 @@ fluent-text-field {
 }
 .reg-card {
     --card-width: 50vh;
-    --card-height: 43vh;
-    padding: 5vh;
+    --card-height: 330px;
+    padding-top: 30px;
 }
